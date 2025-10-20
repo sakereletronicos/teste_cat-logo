@@ -1,4 +1,4 @@
-const spreadsheetId = ''; // Insira seu ID aqui
+const spreadsheetId = '1yJqq-aL5oUnBtxb93bJy2JwLx3ccwuaoQz_UbHAI5_s'; // Insira seu ID aqui
 const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:json`;
 
 let produtos = [];
@@ -91,3 +91,4 @@ buscaEl.addEventListener('input', () => {
 });
 categoriaEl.addEventListener('change', filtrar);
 precoEl.addEventListener('change', filtrar);
+
