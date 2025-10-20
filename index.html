@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo Digital</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Produtos</h1>
+  </header>
+
+  <section class="filtros">
+    <div class="search-wrapper">
+      <input id="busca" type="search" placeholder="Procure pelo nome de seu produto" aria-label="Pesquisar" autocomplete="off" />
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </svg>
+    </div>
+
+    <select id="categoria">
+      <option value="">Todas categorias</option>
+    </select>
+    <select id="preco">
+      <option value="">Todos os preços</option>
+      <option value="0-100">Até R$100</option>
+      <option value="100-200">R$100 a R$200</option>
+      <option value="200-99999">Acima de R$200</option>
+    </select>
+  </section>
+
+  <section id="catalogo" class="catalogo"></section>
+
+  <footer>
+    <p>Caso tenha interesse em algum produto que não está no catálogo, nos contate!</p>
+    <p>&copy; 2025 Catálogo</p>
+  </footer>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/5511958105948" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+      <img src="assets/whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
